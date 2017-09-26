@@ -50,6 +50,20 @@
 				<type>jar</type>
 				<scope>provided</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>webservices.rest-omod</artifactId>
+				<version>${openMRSWebServicesVersion}</version>
+				<type>jar</type>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>webservices.rest-omod-common</artifactId>
+				<version>${openMRSWebServicesVersion}</version>
+				<type>jar</type>
+				<scope>provided</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -57,6 +71,7 @@
 	<properties>
 		<openMRSVersion>1.7.3</openMRSVersion>
 		<openMRSMinorVersion>1.7</openMRSMinorVersion>
+		<openMRSWebServicesVersion>2.12</openMRSWebServicesVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
@@ -109,7 +124,7 @@
 				<openMRSVersion>1.7.3</openMRSVersion>
 				<openMRSMinorVersion>1.7</openMRSMinorVersion>
 			</properties>
-		    
+
 		     <dependencyManagement>
 				<dependencies>			
 					<dependency>
@@ -165,7 +180,6 @@
 		    <properties>
 				<openMRSVersion>1.9.0</openMRSVersion>
 				<openMRSMinorVersion>1.9</openMRSMinorVersion>
-
 			</properties>
 		    
 		    <dependencyManagement>

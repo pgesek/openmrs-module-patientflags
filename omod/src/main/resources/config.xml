@@ -13,6 +13,9 @@
 	<!-- /Patient Flags Module Properties -->
 	
 	<!-- Required Modules -->
+	<require_module version="${openMRSWebServicesVersion}">
+		org.openmrs.module.webservices.rest
+	</require_module>
 
 	<!-- Internationalization -->
 	<messages>
